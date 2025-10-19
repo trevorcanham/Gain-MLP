@@ -1,0 +1,11 @@
+numpy
+torch
+torchvision
+torchaudio
+tqdm
+wandb
+opencv-python
+scikit-image
+matplotlib
+colour-science
+imageio

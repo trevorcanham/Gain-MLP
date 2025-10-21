@@ -152,31 +152,6 @@ def get_model(args, dataset_params):
 
     return net
 
-# def average_metrics(all_metrics):
-
-#     # Initialize an empty dictionary to store the averages
-#     averages = {}
-    
-#     # Iterate through each dictionary in the list
-#     for metrics_dict in all_metrics:
-
-#         # Iterate through each key-value pair in the dictionary
-#         for key, value in metrics_dict.items():
-
-#             # If the key is not in the averages dictionary, initialize it with the current value
-#             if key not in averages:
-#                 averages[key] = value
-#             else:
-#                 # If the key is already present, add the current value to the existing value
-#                 averages[key] += value
-    
-#     # Divide each sum by the number of dictionaries to get the average
-#     num_dicts = len(all_metrics)
-#     for key in averages:
-#         averages[key] /= num_dicts
-    
-#     return averages
-
 def average_weights(model_paths):
 
     # Initialize variables to store total weights and count

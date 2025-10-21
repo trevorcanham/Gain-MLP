@@ -10,7 +10,7 @@ Trevor D. Canham <sup>1</sup>, SaiKiran Tedla <sup>1</sup>, Michael J. Murdoch <
 
 Setup:
 
-install [tinycudann](https://github.com/NVlabs/tiny-cuda-nn.git)
+install [tinycudann](https://github.com/NVlabs/tiny-cuda-nn.git) or add argument ``` -m tfm_mlp ``` to encoding and decoding calls (worse performance).  
 ```
 pip install -r requirements.txt
 ```

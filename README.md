@@ -5,7 +5,7 @@ Trevor D. Canham <sup>1</sup>, SaiKiran Tedla <sup>1</sup>, Michael J. Murdoch <
 
 [Paper](https://arxiv.org/abs/2503.11883), [Video](https://www.youtube.com/watch?v=u7OTgVeZur4), [Dataset](https://www.dropbox.com/scl/fo/uskvi9evls91uax00f4cx/AOm20-zZSq_08JHuuq0ewBg?rlkey=cdgufhmh3cvm4t1ifh5vwx5or&st=vl5p7hm7&dl=0)
 
-![](https://raw.githubusercontent.com/trevorcanham/Gain-MLP/refs/heads/main/teaser_gh.png)
+![](https://raw.githubusercontent.com/trevorcanham/Gain-MLP/refs/heads/main/teaserICCV.png)
 
 
 Setup:

@@ -15,7 +15,7 @@ install [tinycudann](https://github.com/NVlabs/tiny-cuda-nn.git) or add argument
 pip install -r requirements.txt
 ```
 
-To run encode demo with augmented dataset from Cyriac et al., navigate to root directory, download [dataset](https://www.dropbox.com/scl/fo/uskvi9evls91uax00f4cx/AOm20-zZSq_08JHuuq0ewBg?rlkey=cdgufhmh3cvm4t1ifh5vwx5or&st=vl5p7hm7&dl=0), and run the following command:
+To run encode demo with augmented dataset from Cyriac et al., navigate to root directory, download the [dataset](https://www.dropbox.com/scl/fo/uskvi9evls91uax00f4cx/AOm20-zZSq_08JHuuq0ewBg?rlkey=cdgufhmh3cvm4t1ifh5vwx5or&st=vl5p7hm7&dl=0), and run the following command:
 ```
 # Gain Map (Multiplicative Residual)
 python PyTorch/runner.py -mi rgb -em gain -id hdr_sdr_graded_pairs -sd sdr/*.tif -hd hdr/*.tif -pi -md models/metaGammaLab2

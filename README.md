@@ -28,4 +28,4 @@ To run decode demo:
 python PyTorch/runner.py -id hdr_sdr_graded_pairs/sdr -dd models/demo/ -od output
 ```
 
-Happy encoding! and decoding!
+Happy encoding and decoding!

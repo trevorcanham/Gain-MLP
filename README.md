@@ -28,4 +28,6 @@ To run decode demo:
 python PyTorch/runner.py -id hdr_sdr_graded_pairs/sdr -dd models/demo/ -od output
 ```
 
+To run on one's own images, note that the demo SDR and HDR pairs are 16-bit tiff images encoded as follows - SDR: Rec. 709, gamma 2.4 | HDR: Rec. 2020, ST.2084 (PQ) assuming 1,000 nits peak white 
+
 Happy encoding and decoding!
